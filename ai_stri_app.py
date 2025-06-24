@@ -4,10 +4,10 @@ import pandas as pd
 st.title("Changes in the EU Legal Database")
 
 # Fichiers
-file_1_path = "data/stri_newdata/changes.csv"
-file_2_path = "data/stri_newdata/filtered_celex_data_cleaned.csv"
-file_3_path = "data/stri_newdata/filtered_celex_dir_data.csv"
-#file_4_path = "data/stri_newdata/newsect_changes.csv"
+file_1_path = "changes.csv"
+file_2_path = "filtered_celex_data_cleaned.csv"
+file_3_path = "filtered_celex_dir_data.csv"
+#file_4_path = "newsect_changes.csv"
 
 # Options de sélection
 st.sidebar.header("Show files")
